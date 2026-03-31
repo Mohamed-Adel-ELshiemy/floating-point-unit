@@ -5,7 +5,7 @@
 // 
 // Create Date: 10/10/2025 08:32:29 PM
 // Design Name: 
-// Module Name: FPU_SP_Params
+// Module Name: FPU_SP_f2i.v
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
