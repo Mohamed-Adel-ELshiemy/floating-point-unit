@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Mohamed Adel Elshiemy
 // 
 // Create Date: 1/21/2026 08:34:52 AM
 // Design Name: 
@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module comparator (
+module FPU_HP_COMP (
     output reg [2:0] result,
     input  [15:0] X, Y,
     input clk
