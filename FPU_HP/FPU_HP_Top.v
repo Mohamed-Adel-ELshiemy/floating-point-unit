@@ -35,9 +35,9 @@ module FPU_HP_Top (
     wire addSubDone, mulDivDone;
     wire [15:0] addSubResult, mulDivResult;
 
-    addSubCircuit u0 (addSubOFUF, addSubDone, addSubResult, X, Y, addSub, reset, clk);
-    mulDivCircuit u1 (mulDivOFUF, mulDivDone, mulDivResult, X, Y, mulDiv, reset, clk);
-    comparator u2 (compResult, X, Y, clk);
+    FPU_HP_ADD_SUB u0 (addSubOFUF, addSubDone, addSubResult, X, Y, addSub, reset, clk);
+    FPU_HP_MUL_DIV u1 (mulDivOFUF, mulDivDone, mulDivResult, X, Y, mulDiv, reset, clk);
+    FPU_HP_COMP u2 (compResult, X, Y, clk);
 
     always @ (*) begin //combinational logic
         case(opcode) 
