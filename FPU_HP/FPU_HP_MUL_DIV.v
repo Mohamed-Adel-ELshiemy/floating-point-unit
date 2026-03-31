@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Mohamed Adel Elshiemy
 // 
 // Create Date: 11/25/2025 12:00:42 PM
 // Design Name: 
@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module mulDivCircuit (
+module FPU_HP_MUL_DIV (
     output reg [1:0] OFUF, output reg done, output reg [15:0] result,
     input [15:0] X, Y,
     input mulDiv, reset, clk
