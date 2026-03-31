@@ -1,11 +1,11 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Mohamed Adel Elshiemy
 // 
 // Create Date: 11/20/2025 02:34:52 PM
 // Design Name: 
-// Module Name: FPU_HP_Top.v
+// Module Name: FPU_HP_Top
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module fpu_16bit (
+module FPU_HP_Top (
     output reg [1:0] OFUF,
     output reg done,
     output reg [15:0] result,
