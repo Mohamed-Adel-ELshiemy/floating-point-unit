@@ -5,7 +5,7 @@
 // 
 // Create Date: 11/25/2025 12:00:42 PM
 // Design Name: 
-// Module Name: FPU_HP_MUL_DIV.v
+// Module Name: FPU_HP_MUL_DIV
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
