@@ -80,29 +80,8 @@ Tested and ready for:
 - AMD Zynq UltraScale+ ZCU106
 - Genesys2, Nexys 4, and other Xilinx/Intel FPGA Boards
 
-├── src/
-│   ├── FPU_Configurable_Top.v         # Unified top-level module
-│   ├── FPU_Control_Unit.v             # 3-stage pipelined controller
-│   ├── HalfPrecision (FPU_HP)/
-│   │   ├── FPU_HP_Top.v
-│   │   ├── FPU_HP_ADD_SUB.v
-│   │   ├── FPU_HP_MUL_DIV.v
-│   │   ├── FPU_HP_COMP.v
-│   │   └── FPU_HP_tb.v
-│   ├── SinglePrecision (FPU_SP)/
-│   │   ├── FPU_SP_Top.v
-│   │   ├── FPU_SP_ADD.v
-│   │   ├── FPU_SP_Mul.v
-│   │   ├── FPU_SP_Div.v
-│   │   └── FPU_SP_f2i, FPU_SP_i2f, FPU_Full_Benchmark_tb.v 
-│
-├── testbench/
-│   ├── FPU_HP_tb.v
-│   ├── FPU_Full_Benchmark_tb.v
-│   ├── FPU_HSP_tb.v
-│   └── stimulus_vectors.txt
-│
-└── README.md
+Prposed FPU Propject Hierarchy
+<img width="940" height="624" alt="README Hierarchy" src="https://github.com/user-attachments/assets/464f5c6b-62f6-4a21-8948-4612505680b2" />
 
 
 System Architecture
